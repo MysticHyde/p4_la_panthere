@@ -1,3 +1,7 @@
+Utilities
+CSS Minifier
+Online CSS Minifier Tool and Compressor, with Fast and Simple API Access
+Input CSS
 html {
     scroll-behavior: smooth;
 }
@@ -87,6 +91,7 @@ a:hover {
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
+    background-color: blak;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -128,7 +133,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -140,12 +144,14 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
+.d-bloc a .icon-md {
+color: #000000;
+}
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -157,6 +163,10 @@ a:hover {
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
+
+.d-bloc a:hover .icon-md {
+    color: #696950;
+    }
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -288,9 +298,9 @@ a:hover {
     padding-left: 0;
 }
 
-/* #bloc-1-hero h1 {
+#bloc-1-hero h1 {
     font-size: 32px;
-} */
+}
 
 .navbar {
     margin-bottom: 0;
@@ -743,6 +753,9 @@ h4 {
 
 .white {
     color: #FFFFFF;
+}
+.black {
+    color: #000000!important;
 }
 
 .portfolio-thumb {
