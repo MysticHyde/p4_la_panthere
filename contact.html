@@ -29,7 +29,8 @@
 	<!-- Principal conteneur -->
 	<div class="page-container">
 		<!-- bloc-0 -->
-		<div class="bloc bgc-white l-bloc" id="bloc-0">
+
+		<header class="bloc bgc-white l-bloc" id="bloc-0">
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
@@ -53,9 +54,10 @@
 					</div>
 				</nav>
 			</div>
-		</div>
+		</header>
 		<!-- bloc-0 END -->
 
+		<main>
 		<!-- bloc-6 -->
 		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture bg-banniere" id="bloc-6">
 			<div class="container bloc-lg">
@@ -84,20 +86,20 @@
 						<form id="form_1">
 							<div class="form-group">
 								<label for="name"> Nom </label>
-								<input id="name" class="form-control" required />
+								<input id="name" class="form-control" placeholder="Insérer votre nom..." required />
 							</div>
 							<div class="form-group">
 								<label for="email"> Adresse email </label>
-								<input id="email" class="form-control" type="email" required />
+								<input id="email" class="form-control" type="email" placeholder="Insérer votre adresse email..." required />
 							</div>
 							<div class="form-group">
 								<label for="input_504"> Comment nous avez-vous connu ? </label>
-								<input class="form-control" type="text" id="input_504" required />
+								<input class="form-control" type="text" id="input_504" placeholder="Précisez le moyen par lequel vous nous avez connu..." required />
 							</div>
 							<div class="form-group">
 								<label for="message">
 									Brief de votre projet (Ajoutez autant de détails que
-									nécessaire)<br /> </label><textarea id="message" class="form-control" rows="4"
+									nécessaire)<br /> </label><textarea id="message" placeholder="Rédigez votre message..." class="form-control" rows="4"
 									cols="50" required></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
@@ -132,9 +134,10 @@
 			</div>
 		</div>
 		<!-- bloc-7 END -->
-
+	</main>
+	
 		<!-- ScrollToTop Button -->
-		<a class="bloc-button btn btn-d scrollToTop" href="#bloc-0""><span
+		<a class="bloc-button btn btn-d scrollToTop" href="#bloc-0"><span
 				class="fa fa-chevron-up"></span></a>
 		<!-- ScrollToTop Button END-->
 
